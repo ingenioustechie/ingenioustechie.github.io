@@ -23,9 +23,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
-  color: #999;
+  color: #FFF;
   text-rendering: optimizelegibility;
-  font-family: 'Advent Pro', sans-serif;
+  /*font-family: 'Advent Pro', sans-serif;*/
+  font-family: normal normal 17px/145% Lato, sans-serif;
   /*font-family: 'Pontano Sans', sans-serif;*/
 }
 
