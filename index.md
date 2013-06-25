@@ -27,9 +27,9 @@ text-align: center; }
             <ul>
               <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
               <li class="github"><a href="http://{{ site.author.blog }}/" rel="Blog">Blog</a></li>
-              <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="Github">github.com</a></li>
-              <li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="Twitter">twitter.com</a></li>
-              <li class="twitter"><a href="http://facebook.com/{{ site.author.facebook }}/" rel="facebook">facebook.com</a></li>
+              <li class="github"><a href="https://www.github.com/{{ site.author.github }}/" rel="Github">github.com</a></li>
+              <li class="twitter"><a href="https://www.twitter.com/{{ site.author.twitter }}/" rel="Twitter">twitter.com</a></li>
+              <li class="twitter"><a href="https://www.facebook.com/{{ site.author.facebook }}/" rel="facebook">facebook.com</a></li>
               <li class="twitter"><a href="https://plus.google.com/{{ site.author.googleplus }}/" rel="Google Plus">plus.google.com</a></li>
             </ul>
           </div><!-- misc -->
