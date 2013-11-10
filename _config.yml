@@ -1,25 +1,21 @@
 # This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Mukesh Yadav
-tagline: My Personal Life
+tagline: Site Tagline
 author :
   name : Mukesh Yadav
-  email : mail[at]mukeshyadav.com
+  email : mail@mukeshyadav.com
   github : m4k
   twitter : ingenioustechie
-  googleplus : 111296276068955994844
   feedburner : feedname
-  facebook : makdotgnu
-  blog : blog.mukeshyadav.com
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -104,11 +100,14 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-7715423-15'
     getclicky :
       site_id : 
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

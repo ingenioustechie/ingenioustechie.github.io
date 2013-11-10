@@ -2,8 +2,8 @@
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
 
-<div class="row-fluid post-full">
-  <div class="span12">
+<div class="row post-full">
+  <div class="col-md12">
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
@@ -28,8 +28,7 @@
   {% endunless %}  
 
     <hr>
-    <div class="pagination">
-      <ul>
+      <ul class="pagination">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
       {% else %}
@@ -42,7 +41,6 @@
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
       </ul>
-    </div>
     <hr>
     {% include JB/comments %}
   </div>
