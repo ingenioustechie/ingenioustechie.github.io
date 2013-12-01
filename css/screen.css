@@ -133,16 +133,28 @@ h3 {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 }
 
 #pic {
-	display: inline;
-	float: left;
+	width: 300px;
 	height: 400px;
-	margin-right: 10px;
-	width: 267px;
+	border-radius: 150px;
+	float: left;
 }
+#pic img {
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+	opacity: 1;
+	-webkit-box-shadow: 4px 6px 12px 0px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.05) inset;
+	-moz-box-shadow: 4px 6px 12px 0px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.05) inset;
+	box-shadow: 4px 6px 12px 0px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.05) inset;
 
+	filter: alpha(opacity=0);
+}
 #info {
    /*margin-left: 300px;   */
 	overflow: hidden;
